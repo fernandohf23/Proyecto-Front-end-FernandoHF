@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/HFTouch180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/HFFavicon32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/HFFavicon16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500&f[]=clash-grotesk@400,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portafolio HF</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav__desktop">
+                <div class="nav__desktop__logo">
+                    <figure class="nav__desktop__logo__figure">
+                        <img src="/assets/img/LogoDeFernando.png" alt="Logo de fernando" class="nav__desktop__logo__figure__img">
+                    </figure>
+                    <h4 class="nav__desktop__logo__title">FERNANDO <strong>HUAMANI F. </strong></h4>
+                </div>
+
+                <ul class="nav__desktop__links">
+                    <li class="nav__desktop__links__item"><a href="#hero">Inicio</a></li>
+                    <li class="nav__desktop__links__item"><a href="#about">Sobre mí</a></li>
+                    <li class="nav__desktop__links__item"><a href="#videos">Mi Interes</a></li>
+                    <li class="nav__desktop__links__item"><a href="#contact">Contacto</a></li>
+                </ul>
+
+                <div class="nav__desktop__socials">
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="/assets/svg/linkedin-circle.svg" alt="Linkedin Logo Black"></a>
+                    <a href="https://github.com/" target="_blank"><img src="/assets/svg/logo-github.svg" alt="Github Logo Black"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="/assets/svg/youtube-circle.svg" alt="Youtube Logo Black"></a>
+                    <a href="#" target="_blank"><img src="/assets/svg/twitter-circle.svg" alt="Twitter Logo Black"></a>
+                </div>
+            </nav>
+
+            <nav class="nav__mobile">
+                <ul class="nav__mobile__list">
+                    <li class="nav__mobile__list__item">
+                        <a href="#hero" class="nav__mobile__list__item__link">
+                            <ion-icon name="home"></ion-icon>
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav__mobile__list__item">
+                        <a href="#about" class="nav__mobile__list__item__link active">
+                            <ion-icon name="person"></ion-icon>
+                            Sobre mí
+                        </a>
+                    </li>
+                    <li class="nav__mobile__list__item__main">
+                        <a href="#hero">
+                            <figure class="nav__mobile__list__item__main__figure">
+                                <img src="/assets/img/LogoDeFernando2.png" alt="Logo de fernando 2" class="nav__mobile__list__item__main__figure__img">
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="nav__mobile__list__item">
+                        <a href="#videos" class="nav__mobile__list__item__link">
+                            <ion-icon name="videocam"></ion-icon>
+                            Mi Interes
+                        </a>
+                    </li>
+                    <li class="nav__mobile__list__item">
+                        <a href="#contact" class="nav__mobile__list__item__link">
+                            <ion-icon name="call"></ion-icon>
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="hero" id="hero">
+                <figure class="hero__figure">
+                    <img src="/assets/img/FotoDePerfilFernando.png" alt="Figura de perfil fernando" class="hero_figure_img">
+                </figure>
+                <div class="hero__content">
+                    <h1 class="hero__content__title">¡Estudiante De Ingenieria De Sistemas E Infomática!</h1>
+                    <p class="hero__content__paragraph">¡Este portafolio es una ventana a mi mundo creativo como diseñador web. Mi objetivo principal es mejorar la experiencia del usuario y ayudar a las empresas a conectar con su audiencia a través de diseños web efectivos y atractivos. Cada proyecto presentado aquí es una muestra de cómo transformo ideas en soluciones digitales que cumplen con las necesidades específicas de mis clientes.</p>
+                    <ul class="hero__content__features">
+                        <li class="hero__content__features__item">
+                            <ion-icon name="checkmark-done-outline" class="hero__content__features__item__icon"></ion-icon>
+                            Trabajo en equipo
+                        </li>
+                        <li class="hero__content__features__item">
+                            <ion-icon name="checkmark-done-outline" class="hero__content__features__item__icon"></ion-icon>
+                            Dedicacion
+                        </li>
+                        <li class="hero__content__features__item">
+                            <ion-icon name="checkmark-done-outline" class="hero__content__features__item__icon"></ion-icon>
+                            Creatividad
+                        </li>
+                        <li class="hero__content__features__item">
+                            <ion-icon name="checkmark-done-outline" class="hero__content__features__item__icon"></ion-icon>
+                            Comunicacion
+                        </li>
+                    </ul>
+                    <div class="hero__content__buttons">
+                        <a href="wa.me/+51953417032" class="hero__content__buttons__btn">WhatsApp</a>
+                        <a href="tel:953417032" class="hero__content__buttons__btn">Llamar</a>
+                    </div>
+                </div>
+            </section>
+            <section class="technologies">
+                <ul class="technologies__list">
+                    <li class="technologies__list__item">
+                        <figure class="technologies__list__item__figure">
+                            <img src="/assets/icons/MySql Icon.png" alt="MySql Icon" class="technologies__list__item__figure__img" title="MySql">
+                        </figure>
+                    </li>
+                    <li class="technologies__list__item">
+                        <figure class="technologies__list__item__figure">
+                            <img src="/assets/icons/Figma Icon.png" alt="Figma Icon" class="technologies__list__item__figure__img" title="Figma">
+                        </figure>
+                    </li>
+                    <li class="technologies__list__item">
+                        <figure class="technologies__list__item__figure">
+                            <img src="/assets/icons/Github Icon.png" alt="Github Icon" class="technologies__list__item__figure__img" title="Github">
+                        </figure>
+                    </li>
+                    <li class="technologies__list__item">
+                        <figure class="technologies__list__item__figure">
+                            <img src="/assets/icons/Html Icon.png" alt="Html Icon" class="technologies__list__item__figure__img" title="HTML">
+                        </figure>
+                    </li>
+                    <li class="technologies__list__item">
+                        <figure class="technologies__list__item__figure">
+                            <img src="/assets/icons/Css Icon.png" alt="Css Icon" class="technologies__list__item__figure__img" title="CSS">
+                        </figure>
+                    </li>
+                    <li class="technologies__list__item">
+                        <figure class="technologies__list__item__figure">
+                            <img src="/assets/icons/Sass Icon.png" alt="Sass Icon" class="technologies__list__item__figure__img" title="Sass">
+                        </figure>
+                    </li>
+                    <li class="technologies__list__item">
+                        <figure class="technologies__list__item__figure">
+                            <img src="/assets/icons/Javascript Icon.png" alt="Javascript Icon" class="technologies__list__item__figure__img" title="Javascript">
+                        </figure>
+                    </li>
+                    <li class="technologies__list__item">
+                        <figure class="technologies__list__item__figure">
+                            <img src="/assets/icons/Python Icon.png" alt="Python Icon" class="technologies__list__item__figure__img" title="Python">
+                        </figure>
+                    </li>
+                    <li class="technologies__list__item">
+                        <figure class="technologies__list__item__figure">
+                            <img src="/assets/icons/Php Icon.png" alt="Php Icon" class="technologies__list__item__figure__img" title="PHP">
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+        </header>
+
+        <section class="about" id="about">
+            <figure class="about__figure">
+                <img src="/assets/img/ProgramaciónLlamaCusco.png" alt="Persona volando en un cohete por el cielo" class="about__figure__img">
+            </figure>
+            <div class="about__content">
+                <h2 class="about__content__title">Mi Interes Por La Programación</h2>
+                <p class="about__content__paragraph">Soy Estudiante de Ingenieria de sistemas e informatica en la ciudad del cusco, a lo largo de este tiempo fui indagando y averiguando sobre este mundo, donde conoci personas super profesionales que me ayudaron a desarrollar webs como los canales de SERGIE CODE y MIDU DEV.</p>
+                <ul class="about__content__stats">
+                    <li class="about__content__stats__item">
+                        <ion-icon name="people"></ion-icon>
+                        <div class="about__content__stats__item__content">
+                            <span class="about__content__stats__item__content__number" id="subscribers" aria-label="Número de Suscriptores">0</span>
+                            <h6 class="about__content__stats__item__content__description">Suscriptores</h6>
+                        </div>
+                    </li>
+                    <li class="about__content__stats__item">
+                        <ion-icon name="eye"></ion-icon>
+                        <div class="about__content__stats__item__content">
+                            <span class="about__content__stats__item__content__number" id="views" aria-label="Número de Vistas">0</span>
+                            <h6 class="about__content__stats__item__content__description">Visualizaciones</h6>
+                        </div>
+                    </li>
+                    <li class="about__content__stats__item">
+                        <ion-icon name="videocam"></ion-icon>
+                        <div class="about__content__stats__item__content">
+                            <span class="about__content__stats__item__content__number" id="videos" aria-label="Videos Publicados">0</span>
+                            <h6 class="about__content__stats__item__content__description">Vídeos Subidos</h6>
+                        </div>
+                    </li>
+                    <li class="about__content__stats__item">
+                        <ion-icon name="folder-open"></ion-icon>
+                        <div class="about__content__stats__item__content">
+                            <span class="about__content__stats__item__content__number" id="projects" aria-label="Número de Proyectos">0</span>
+                            <h6 class="about__content__stats__item__content__description">Proyectos</h6>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <main class="videos" id="videos">
+        <div class="videos__content">
+            <h2 class="videos__content__title">Te Recomiendo Los Siguientes Videos</h2>
+            <p class="videos__content__paragraph">Estos videos me ayudaron a complementar mis conocimientos en la progrmacion.</p>
+            <a href="https://www.youtube.com/@midudev" class="videos__content__cta">Comunícate Conmigo</a>
+        </div>
+        <div class="videos__list">
+            <div class="videos__list__filters">
+                <button class="videos__list__filters__item active" id="recents">Recientes</button>
+                <button class="videos__list__filters__item" id="populars">Populares</button>
+            </div>
+
+            <section class="swiper videos__list__cards">
+                <div class="swiper-wrapper">
+                    <template id="tmplVideo">
+                        <article class="videos__list__cards__item swiper-slide">
+                            <figure class="videos__list__cards__item__thumbnail">
+                                <img src="" alt="" class="videos__list__cards__item__thumbnail__img">
+                            </figure>
+                            <div class="videos__list__cards__item__content">
+                                <h5 class="videos__list__cards__item__content__title"></h5>
+                                <p class="videos__list__cards__item__content__paragraph"></p>
+                                <div class="videos__list__cards__item__content__actions">
+                                    <a href="#" target="_blank" class="videos__list__cards__item__content__actions__watch">Mirar Ahora <ion-icon name="play"></ion-icon></a>
+                                    <div class="videos__list__cards__item__content__actions__date">
+                                        <ion-icon name="calendar"></ion-icon>
+                                        <time class="videos__list__cards__item__content__actions__date__text" aria-label="Fecha de Publicación"></time>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </template>
+                </div>
+                <div class="videos__list__cards__pagination swiper-pagination"></div>
+                <div class="videos__list__cards__button swiper-button-prev"></div>
+                <div class="videos__list__cards__button swiper-button-next"></div>
+            </section>
+        </div>
+    </main>
+
+    <div class="wrapper">
+        <section class="features">
+            <div class="features__top">
+                <figure class="features__top__figure">
+                    <img src="/assets/img/cuscoYllama.png" alt="Mujer caminando con el pulgar hacia arriba rodeada de figuras" class="features__top__figure__img">
+                </figure>
+                <div class="features__top__content">
+                    <h2 class="features__top__content__title">Soy Diseñador Web En La Ciudad Del Cusco</h2>
+                    <p class="features__top__content__paragraph">Soy un Diseñador web ubicado en la histórica ciudad de Cusco, Perú, especializado en crear soluciones digitales que reflejan la rica cultura y diversidad de la región. Mi enfoque se centra en el desarrollo de sitios web dinámicos y funcionales que no solo cumplen con los estándares globales, sino que también están optimizados para las necesidades específicas de empresas y clientes locales.</p>
+                </div>
+            </div>
+            <section class="features__cards">
+                <article class="features__cards__item">
+                    <ion-icon name="code-slash"></ion-icon>
+                    <div class="features__cards__item__content">
+                        <h4 class="features__cards__item__content__title">HTML & CSS</h4>
+                        <p class="features__cards__item__content__paragraph">Conoci mas este mundo en el bootcamp de CodiGo con Tecsup, donde me comenzo a llamar mas la atencion las diferentes maneras de realizar una web e incluso una landing page.</p>
+                    </div>
+                    <a href="#" class="features__cards__item__cta">Explorar Ahora <ion-icon name="arrow-forward"></ion-icon></a>
+                </article>
+                <article class="features__cards__item">
+                    <ion-icon name="code-slash"></ion-icon>
+                    <div class="features__cards__item__content">
+                        <h4 class="features__cards__item__content__title">JavaScript</h4>
+                        <p class="features__cards__item__content__paragraph">Conoci mas este mundo en el bootcamp de CodiGo con Tecsup, tambien fui indagando en la web con diferentes tutoriales.</p>
+                    </div>
+                    <a href="#" class="features__cards__item__cta">Explorar Ahora <ion-icon name="arrow-forward"></ion-icon></a>
+                </article>
+                <article class="features__cards__item">
+                    <ion-icon name="code-slash"></ion-icon>
+                    <div class="features__cards__item__content">
+                        <h4 class="features__cards__item__content__title">WordPress</h4>
+                        <p class="features__cards__item__content__paragraph">Actualmente brindo mis servicios como FREEELANCER, realizando distintas paginas webs, ya sea turisticas, informativas y tiendas virtuales.</p>
+                    </div>
+                    <a href="#" class="features__cards__item__cta">Explorar Ahora <ion-icon name="arrow-forward"></ion-icon></a>
+                </article>
+                <article class="features__cards__item">
+                    <ion-icon name="code-slash"></ion-icon>
+                    <div class="features__cards__item__content">
+                        <h4 class="features__cards__item__content__title">Diseño Grafico</h4>
+                        <p class="features__cards__item__content__paragraph">Gran parte de mi vida trabaje en diferentes agencias como diseñador grafico manejando programas como Corel Draw, Photoshop y tambien Ilustrator.</p>
+                    </div>
+                    <a href="#" class="features__cards__item__cta">Explorar Ahora <ion-icon name="arrow-forward"></ion-icon></a>
+                </article>
+            </section>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact__main">
+                <div class="contact__main__description">
+                    <h2 class="contact__main__description__title">Contactame Pide Tu Servicio</h2>
+                    <p class="contact__main__description__paragraph">¿Tienes preguntas, ideas o sugerencias? ¡Estamos aquí para escucharte!</p>
+                </div>
+                <form class="contact__main__form" action="https://formspree.io/f/mpzvwrpk" method="POST">
+
+                    <div class="contact__main__form__group">
+                        <div class="contact__main__form__field">
+                            <label for="name" class="contact__main__form__field__label">Nombre Completo</label>
+                            <input type="text" class="contact__main__form__field__input" name="name" id="name" placeholder="Tu Nombre" required autocomplete="name">
+                        </div>
+
+                        <div class="contact__main__form__field">
+                            <label for="email" class="contact__main__form__field__label">Email</label>
+                            <input type="email" class="contact__main__form__field__input" name="email" id="email" placeholder="hola@fernandohf.com" required autocomplete="email">
+                        </div>
+                    </div>
+
+                    <div class="contact__main__form__field">
+                        <label for="subject" class="contact__main__form__field__label">Asunto</label>
+                        <input type="text" class="contact__main__form__field__input" name="subject" id="subject" placeholder="¿Que servicio deseas?" required>
+                    </div>
+
+                    <div class="contact__main__form__field">
+                        <label for="message" class="contact__main__form__field__label">Mensaje</label>
+                        <textarea name="message" id="message" placeholder="Especifica el servicio deseado" class="contact__main__form__field__input textarea" required></textarea>
+                    </div>
+
+                    <button type="submit" class="contact__main__form__submit">Enviar Mensaje <ion-icon name="arrow-forward"></ion-icon></button>
+                </form>
+            </div>
+            <figure class="contact__figure">
+                <img src="/assets/img/WEBREALIZADA.png" alt="Laptop con el canal de Youtube de Todo Código" class="contact__figure__img">
+            </figure>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <section class="footer__content">
+            <div class="footer__content__column">
+                <div class="footer__content__column__brand">
+                    <figure class="footer__content__column__brand__figure">
+                        <img src="/assets/img/LogoDeFernando.png" alt="Todo Código Logo" class="footer__content__column__brand__figure__img">
+                    </figure>
+                    <h4 class="footer__content__column__brand__name">Soy Fernando HF</h4>
+                </div>
+                <p class="footer__content__column__description">¡Contactate conmigo para cualquier diseño web!</p>
+            </div>
+            <div class="footer__content__column">
+                <h5 class="footer__content__column__links__title">Secciones</h5>
+                <ul class="footer__content__column__links__list">
+                    <li class="footer__content__column__links__list__item"><a href="#hero">Inicio</a></li>
+                    <li class="footer__content__column__links__list__item"><a href="#about">Sobre mí</a></li>
+                    <li class="footer__content__column__links__list__item"><a href="#videos">Mi Interes</a></li>
+                    <li class="footer__content__column__links__list__item"><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__content__column">
+                <h5 class="footer__content__column__links__title">Redes</h5>
+                <ul class="footer__content__column__links__list">
+                    <li class="footer__content__column__links__list__item"><a href="https://facebook.com/">Facebook</a></li>
+                    <li class="footer__content__column__links__list__item"><a href="https://instagram.com/">Instagram</a></li>
+                    <li class="footer__content__column__links__list__item"><a href="https://github.com/">Github</a></li>
+                    <li class="footer__content__column__links__list__item"><a href="https://www.linkedin.com/">Linkedin</a></li>
+                </ul>
+            </div>
+            <div class="footer__content__column">
+                <h5 class="footer__content__column__title">Suscribete</h5>
+                <form action="#" class="footer__content__column__form" id="newsletter">
+                    <input type="email" name="emailNewsletter" id="emailNewsletter" placeholder="hola@fernandohf.com" aria-label="Correo para suscribirse al Newsletter" class="footer__content__column__form__input" autocomplete="email" required>
+                    <button type="submit" class="footer__content__column__form__submit">Suscribirse</button>
+                </form>
+            </div>
+        </section>
+        <section class="footer__copyright">
+            <h6 class="footer__copyright__title">&copy; <time datetime="2024">2024</time> Fernando HF - Todos los Derechos Reservados</h6>
+        </section>
+    </footer>
+
+    <script src="/js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
